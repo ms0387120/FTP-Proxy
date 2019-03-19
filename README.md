@@ -12,7 +12,7 @@ gcc ftp_proxy.c -o proxy ./proxy <ProxyIP> <ProxyPort> <Rate>
 * 但測試後發現單單只讓系統 usleep 這個值是不夠的，因此我們決定再乘上一特定係數來降低平均速率，而這係數也是我們自己測試出來最符合的值
 
 * 流程圖
-![](https://imgur.com/wCx4rV5)
+![](https://imgur.com/wCx4rV5.png)
 
 * 速度控制示意圖
-![](https://imgur.com/uGb1RxG)
+![](https://imgur.com/uGb1RxG.png)
